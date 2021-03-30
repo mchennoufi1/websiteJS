@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html class="theme-light">
     <head>
 <link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="style.css">
+
 <meta charset="utf-8">
         <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -47,15 +47,20 @@
                     </div>
                 </div>
             </div>
+            <br><br>
+            <h2>Projecten</h2>
+            <ol>op deze website staat er: </ol>
+            <li><a href="rekentool.html">rekentool</a></li>
+            <li>thema-switcher</li>
+            <br><br>
         </main>
         <footer>
             Mohammed Chennoufi 2021
         </footer>
         <hr>
-    <div>
-        <label>Change Webpage Background To:</label>
-        <button type="button" onclick="changeBodyBg('white');">Light</button>
-        <button type="button" onclick="changeBodyBg('black');">Dark</button>
+    <div class="container">
+        <h3>Change Webpage Background</h3>
+        <button id="switch" onclick="toggleTheme()">Switch</button>
     </div>
     <br>
     </body>
